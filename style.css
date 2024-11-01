@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d2033;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    padding: 8px 12px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.cart a img {
+    width: 24px;
+    height: 24px;
+}
+
+#nav-search {
+    width: 20vw;
+    border: none;
+    height: 2rem;
+    text-align: center;
+}
+
+#nav-search:active {
+    border: none;
+    
+
+}
+
+.Products {
+    height: 60vh;
+    width: 25vw;
+    margin-top: 58vh;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#background-1 {
+    background-image: url(IMAGES/amazon-great-indian-festival-sale-2024-discount-of-a-minimum-50-on-furniture-went-live-for-prime.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img-1 {
+    height: 45vh;
+    width: 44vh;
+}
+.img-2 {
+    height: 45vh;
+    width: 44vh;
+}
+
+.img-3 {
+    height: 45vh;
+    width: 45vh;
+}
+ .p {
+    color: navy;
+    font-size: large;
+    margin: 0px;
+ }
+ .p:hover {
+
+    color: orange;
+ }
+ 
+  .images{width: 20vw;
+    height: 45vh;
+    margin-top: 10px;
+    display: block;
+}
+
+
+  .blockbuster-deals {
+    background-color: #f2d688 ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.products-2 {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.discount {
+   
+    text-align:center
+}
+.offer, .amazon-offer{
+ display: inline-block;
+ margin-right: 10px;
+ font-size: large;
+}
+.offer {
+    margin-left: 10px;
+    background-color: #CC0C39;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.amazon-offer {
+    color: #CC0C39;
+    font-weight: 700;
+}
+.deals-container {
+    background-color:#f2d688
+}
+
+#deals-head {
+    padding-top:20px;
+    padding-left: 20px;
+   
+}
+
+.rates {
+    display: flex;
+    }
+    .price, .mrp {
+        margin-right:10px;
+    }
+
+    .price {
+font-size: 20px ;
+margin-left: 10px
+    }
+    .mrp { font-size: 15px;
+
+    }
+
+    .cut-price {
+        text-decoration: line-through;
+
+    }
+    .mrp, .cut-price {
+        color: #575757;
+        font-family: arianl 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+    .category-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+      }
+  
+      .category-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      .category-card img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .category-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .see-all-btn {
+        display: inline-block;
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      footer {
+
+        background-color: #232f3e;
+        color: white;
+      }
+
+      .foot-1 {
+        display:flex;
+        justify-content: space-evenly;
+        padding: 50px;
+      }
+    
+      ol {
+        list-style: none;
+      }
+      .footer-link {
+        color: white;
+        text-decoration: none;
+        line-height: 30px;
+      }
+      .footer-link:hover {
+
+        color: orange;
+        text-decoration: underline;
+
+      }
+      #last {
+        text-align: center;
+      }
+   
+    
